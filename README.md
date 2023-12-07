@@ -481,7 +481,7 @@ In the file `controllers/FilesController.js`, add the 2 new endpoints:
 -   Based on the query parameters `parentId` and `page`, return the list of file document
     -   `parentId`:
         -   No validation of `parentId` needed - if the `parentId` is not linked to any user folder, returns an empty list
-        -   By default, `parentId` is equal to 0 = the root
+        -   By default `parentId` is equal to 0 = the root
     -   Pagination:
         -   Each page should be 20 items max
         -   `page` query parameter starts at 0 for the first page. If equals to 1, it means it's the second page (form the 20th to the 40th), etc...
